@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="CAB DETAILS"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#202020"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView1_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Date"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText1_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1_cabdetails"
+            android:layout_toRightOf="@+id/textView1_cabdetails"
+            android:textSize="20dp"
+            android:text="Date"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+
+
+        />
+
+        <TextView
+            android:id="@+id/textView2_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Time"
+            android:layout_marginRight="72dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText2_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2_cabdetails"
+            android:layout_toRightOf="@+id/textView2_cabdetails"
+            android:textSize="20dp"
+            android:text="time"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+            />
+
+        <TextView
+            android:id="@+id/textView3_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Capacity"
+            android:layout_marginRight="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText3_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3_cabdetails"
+            android:layout_toRightOf="@+id/textView3_cabdetails"
+            android:textSize="20dp"
+            android:text="capacity"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+        />
+
+        <TextView
+            android:id="@+id/textView4_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Destination"
+            android:layout_marginRight="15.5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText4_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4_cabdetails"
+            android:layout_toRightOf="@+id/textView4_cabdetails"
+            android:textSize="20dp"
+            android:text="desti"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+        />
+
+
+        <TextView
+            android:id="@+id/textView5_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="From"
+            android:layout_marginRight="70dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText5_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5_cabdetails"
+            android:layout_toRightOf="@+id/textView5_cabdetails"
+            android:textSize="20dp"
+            android:text="from"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+        />
+        <TextView
+            android:id="@+id/textView6_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView5_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Note"
+            android:layout_marginRight="74dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText6_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView6_cabdetails"
+            android:layout_toRightOf="@+id/textView6_cabdetails"
+            android:textSize="20dp"
+            android:text="note"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+        />
+
+        <TextView
+            android:id="@+id/textView7_cabdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6_cabdetails"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Total pay"
+            android:layout_marginRight="34dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <TextView
+            android:id="@+id/editText7_cabdetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7_cabdetails"
+            android:layout_toRightOf="@+id/textView7_cabdetails"
+            android:textSize="20dp"
+            android:text="Total pay"
+            android:layout_marginRight="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020"
+            />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7_cabdetails"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:background="#CCCCCC"
+            android:text="Partner Details"
+            android:textColor="#202020"
+            android:onClick="go_to_partnerlist"
+
+            />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="20dp"
+            android:background="#CCCCCC"
+            android:text="join Cab"
+            android:textColor="#202020"
+            android:onClick="go_to_addpartner"/>
+
+        <Button
+            android:id="@+id/buttona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:background="#CCCCCC"
+            android:text="BACK TO OPTIONS"
+            android:textColor="#202020"
+            android:onClick="go_to_options_a"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

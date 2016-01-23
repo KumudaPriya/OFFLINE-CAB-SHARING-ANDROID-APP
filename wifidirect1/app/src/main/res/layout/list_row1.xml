@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView7_list_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="23dp"
+        android:textSize="20dp"
+        android:text="Name"
+        android:layout_marginRight="64dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#202020" />
+
+
+
+    <TextView
+        android:id="@+id/textView8_list_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView7_list_row1"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp"
+        android:text="Degree"
+        android:layout_marginRight="55dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#202020" />
+
+
+    <TextView
+        android:id="@+id/textView9_list_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView8_list_row1"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp"
+        android:text="Mobile"
+        android:layout_marginRight="58dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#202020" />
+
+
+
+
+
+
+</RelativeLayout>

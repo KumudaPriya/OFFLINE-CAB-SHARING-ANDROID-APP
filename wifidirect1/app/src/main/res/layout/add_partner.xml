@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/insertView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="enter your details"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#202020"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:id="@+id/textView1_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/insertView2"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Name"
+            android:layout_marginRight="64dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <EditText
+            android:id="@+id/editText1_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1_add"
+            android:layout_toRightOf="@+id/textView1_add"
+            android:background="#CCCCCC"
+            android:ems="10"
+            android:inputType="text|textImeMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1_add"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Degree"
+            android:layout_marginRight="55dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <EditText
+            android:id="@+id/editText2_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2_add"
+            android:layout_toRightOf="@+id/textView2_add"
+            android:background="#CCCCCC"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2_add"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"
+            android:text="Mobile"
+            android:layout_marginRight="58dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#202020" />
+
+        <EditText
+            android:id="@+id/editText3_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3_add"
+            android:layout_toRightOf="@+id/textView3_add"
+            android:background="#CCCCCC"
+
+            android:ems="10"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3_add"
+            android:layout_marginTop="20dp"
+            android:background="#CCCCCC"
+            android:text="OK"
+            android:textColor="#202020"
+            android:onClick="go_to_options1"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert new cab"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#202020"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="170dp"
+        android:id="@+id/editorial_text_view"
+        android:onClick="insert_cab"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view all cabs"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#202020"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="16dp"
+        android:id="@+id/business_text_view"
+        android:onClick="view_cabs"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update the cab list"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#202020"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn1"
+        android:onClick="update_cablist"
+        />
+
+
+</LinearLayout>

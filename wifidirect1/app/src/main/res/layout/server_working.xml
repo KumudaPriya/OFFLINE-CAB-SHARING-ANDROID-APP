@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "#fff"
+    tools:context=".MainActivity"
+
+
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:text="Server is working"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textSize="45sp"
+        android:alpha="1"
+        android:textColor="#000"
+        android:singleLine="false"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+
+
+
+
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cab sharing app...."
+        android:textSize="35dp"
+        android:layout_below="@id/welcome_text_view"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/tag_text_view"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
